@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428F335E2958E60400442826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F335D2958E60400442826 /* AppDelegate.swift */; };
+		428F33602958E60400442826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F335F2958E60400442826 /* SceneDelegate.swift */; };
+		428F33622958E60400442826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F33612958E60400442826 /* ViewController.swift */; };
+		428F33652958E60400442826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428F33632958E60400442826 /* Main.storyboard */; };
+		428F33672958E60700442826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428F33662958E60700442826 /* Assets.xcassets */; };
+		428F336A2958E60700442826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428F33682958E60700442826 /* LaunchScreen.storyboard */; };
+		428F33752958E60700442826 /* Pathao_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F33742958E60700442826 /* Pathao_AppTests.swift */; };
+		428F337F2958E60700442826 /* Pathao_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F337E2958E60700442826 /* Pathao_AppUITests.swift */; };
+		428F33812958E60700442826 /* Pathao_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F33802958E60700442826 /* Pathao_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428F33712958E60700442826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428F33522958E60400442826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428F33592958E60400442826;
+			remoteInfo = "Pathao App";
+		};
+		428F337B2958E60700442826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428F33522958E60400442826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428F33592958E60400442826;
+			remoteInfo = "Pathao App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428F335A2958E60400442826 /* Pathao App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pathao App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428F335D2958E60400442826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428F335F2958E60400442826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		428F33612958E60400442826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428F33642958E60400442826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428F33662958E60700442826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428F33692958E60700442826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428F336B2958E60700442826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428F33702958E60700442826 /* Pathao AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pathao AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428F33742958E60700442826 /* Pathao_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathao_AppTests.swift; sourceTree = "<group>"; };
+		428F337A2958E60700442826 /* Pathao AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pathao AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428F337E2958E60700442826 /* Pathao_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathao_AppUITests.swift; sourceTree = "<group>"; };
+		428F33802958E60700442826 /* Pathao_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathao_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428F33572958E60400442826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F336D2958E60700442826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F33772958E60700442826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428F33512958E60400442826 = {
+			isa = PBXGroup;
+			children = (
+				428F335C2958E60400442826 /* Pathao App */,
+				428F33732958E60700442826 /* Pathao AppTests */,
+				428F337D2958E60700442826 /* Pathao AppUITests */,
+				428F335B2958E60400442826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428F335B2958E60400442826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428F335A2958E60400442826 /* Pathao App.app */,
+				428F33702958E60700442826 /* Pathao AppTests.xctest */,
+				428F337A2958E60700442826 /* Pathao AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428F335C2958E60400442826 /* Pathao App */ = {
+			isa = PBXGroup;
+			children = (
+				428F335D2958E60400442826 /* AppDelegate.swift */,
+				428F335F2958E60400442826 /* SceneDelegate.swift */,
+				428F33612958E60400442826 /* ViewController.swift */,
+				428F33632958E60400442826 /* Main.storyboard */,
+				428F33662958E60700442826 /* Assets.xcassets */,
+				428F33682958E60700442826 /* LaunchScreen.storyboard */,
+				428F336B2958E60700442826 /* Info.plist */,
+			);
+			path = "Pathao App";
+			sourceTree = "<group>";
+		};
+		428F33732958E60700442826 /* Pathao AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				428F33742958E60700442826 /* Pathao_AppTests.swift */,
+			);
+			path = "Pathao AppTests";
+			sourceTree = "<group>";
+		};
+		428F337D2958E60700442826 /* Pathao AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				428F337E2958E60700442826 /* Pathao_AppUITests.swift */,
+				428F33802958E60700442826 /* Pathao_AppUITestsLaunchTests.swift */,
+			);
+			path = "Pathao AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428F33592958E60400442826 /* Pathao App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F33842958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao App" */;
+			buildPhases = (
+				428F33562958E60400442826 /* Sources */,
+				428F33572958E60400442826 /* Frameworks */,
+				428F33582958E60400442826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pathao App";
+			productName = "Pathao App";
+			productReference = 428F335A2958E60400442826 /* Pathao App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428F336F2958E60700442826 /* Pathao AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F33872958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao AppTests" */;
+			buildPhases = (
+				428F336C2958E60700442826 /* Sources */,
+				428F336D2958E60700442826 /* Frameworks */,
+				428F336E2958E60700442826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428F33722958E60700442826 /* PBXTargetDependency */,
+			);
+			name = "Pathao AppTests";
+			productName = "Pathao AppTests";
+			productReference = 428F33702958E60700442826 /* Pathao AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		428F33792958E60700442826 /* Pathao AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F338A2958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao AppUITests" */;
+			buildPhases = (
+				428F33762958E60700442826 /* Sources */,
+				428F33772958E60700442826 /* Frameworks */,
+				428F33782958E60700442826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428F337C2958E60700442826 /* PBXTargetDependency */,
+			);
+			name = "Pathao AppUITests";
+			productName = "Pathao AppUITests";
+			productReference = 428F337A2958E60700442826 /* Pathao AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428F33522958E60400442826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					428F33592958E60400442826 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					428F336F2958E60700442826 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 428F33592958E60400442826;
+					};
+					428F33792958E60700442826 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 428F33592958E60400442826;
+					};
+				};
+			};
+			buildConfigurationList = 428F33552958E60400442826 /* Build configuration list for PBXProject "Pathao App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428F33512958E60400442826;
+			productRefGroup = 428F335B2958E60400442826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428F33592958E60400442826 /* Pathao App */,
+				428F336F2958E60700442826 /* Pathao AppTests */,
+				428F33792958E60700442826 /* Pathao AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428F33582958E60400442826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F336A2958E60700442826 /* LaunchScreen.storyboard in Resources */,
+				428F33672958E60700442826 /* Assets.xcassets in Resources */,
+				428F33652958E60400442826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F336E2958E60700442826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F33782958E60700442826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428F33562958E60400442826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F33622958E60400442826 /* ViewController.swift in Sources */,
+				428F335E2958E60400442826 /* AppDelegate.swift in Sources */,
+				428F33602958E60400442826 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F336C2958E60700442826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F33752958E60700442826 /* Pathao_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F33762958E60700442826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F337F2958E60700442826 /* Pathao_AppUITests.swift in Sources */,
+				428F33812958E60700442826 /* Pathao_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428F33722958E60700442826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428F33592958E60400442826 /* Pathao App */;
+			targetProxy = 428F33712958E60700442826 /* PBXContainerItemProxy */;
+		};
+		428F337C2958E60700442826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428F33592958E60400442826 /* Pathao App */;
+			targetProxy = 428F337B2958E60700442826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428F33632958E60400442826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428F33642958E60400442826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428F33682958E60700442826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428F33692958E60700442826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428F33822958E60700442826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428F33832958E60700442826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428F33852958E60700442826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pathao App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428F33862958E60700442826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pathao App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		428F33882958E60700442826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathao App.app/Pathao App";
+			};
+			name = Debug;
+		};
+		428F33892958E60700442826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathao App.app/Pathao App";
+			};
+			name = Release;
+		};
+		428F338B2958E60700442826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pathao App";
+			};
+			name = Debug;
+		};
+		428F338C2958E60700442826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mamun.Pathao-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pathao App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428F33552958E60400442826 /* Build configuration list for PBXProject "Pathao App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F33822958E60700442826 /* Debug */,
+				428F33832958E60700442826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428F33842958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F33852958E60700442826 /* Debug */,
+				428F33862958E60700442826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428F33872958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F33882958E60700442826 /* Debug */,
+				428F33892958E60700442826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428F338A2958E60700442826 /* Build configuration list for PBXNativeTarget "Pathao AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428F338B2958E60700442826 /* Debug */,
+				428F338C2958E60700442826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428F33522958E60400442826 /* Project object */;
+}
